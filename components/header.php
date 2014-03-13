@@ -30,7 +30,7 @@
 							<a href="guias.php">Guías</a>
 						</li>
 						<li>
-							<a href="#">Buscador</a>
+							<a href="buscador.php">Buscador</a>
 						</li>
 						<li class="dropdown">
 							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
