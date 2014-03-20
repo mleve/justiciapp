@@ -42,6 +42,7 @@
                         <li class="active" data-slide-to="0" data-target="#carousel-489233"></li>
                         <li data-slide-to="1" data-target="#carousel-489233" class=""></li>
                         <li data-slide-to="2" data-target="#carousel-489233" class=""></li>
+                        <li data-slide-to="3" data-target="#carousel-489233" class=""></li>
                       </ol>
                       <div class="carousel-inner">
                         <div class="item active">
@@ -86,20 +87,7 @@
 		</div>
 	</div>
 	<div class="row clearfix">
-		<div class="col-md-6 column">
-			<h3 class="text-center">
-				Guias
-			</h3>
-			<p>
-				¿No sabes como comenzar?, en <strong> NOMBREAPLICACION</strong> te explicamos.
-			</p>
-			<p>
-				Hemos preparado una serie de guías legales para guiarte en los procesos judiciales mas comunes
-			</p>
-			<div class="text-center"> <a class="btn btn-primary btn-large" href="guias.php">Ir a guiás</a> </div>
-				
-		</div>
-		<div class="col-md-6 column">
+            	<div class="col-md-6 column">
 			<h3 class="text-center">
 				Buscador de Causas
 			</h3>
@@ -115,6 +103,19 @@
 			<p> Ademas, te ofrecemos guiás que te ayuden a entender tus causas </p>
 			<div class="text-center"> <a class="btn btn-primary btn-large" href="#">Ir al buscador</a> </div>			
 		</div>
+		<div class="col-md-6 column">
+			<h3 class="text-center">
+				Guias
+			</h3>
+			<p>
+				¿No sabes como comenzar?, en <strong> NOMBREAPLICACION</strong> te explicamos.
+			</p>
+			<p>
+				Hemos preparado una serie de guías legales para guiarte en los procesos judiciales mas comunes
+			</p>
+			<div class="text-center"> <a class="btn btn-primary btn-large" href="guias.php">Ir a guiás</a> </div>
+				
+		</div>
 	</div>
 	<div class="row clearfix">
 		<div class="col-md-12 column">
@@ -122,8 +123,16 @@
 				Disclaimer
 			</h3>
 			<p>
-				Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
-			</p>
+                            El proyecto <strong>JusticiaAPP</strong> se desarrolla en el marco del primer  concurso de Derecho y Acceso a la Justicia,
+                            organizado por el 
+                            <a target="_blank" href="http://www.derecho.uchile.cl/noticias/97367/primer-concurso-tecnologia-y-acceso-a-la-justicia">Poder Judicial de la República de Chile</a>.
+                        </p>
+                        <p>
+                            <strong>JusticiaAPP</strong> consulta las bases de datos públicas del Poder Judicial, por tanto en caso de existir causas reservadas dicho contenido no será exhibido.
+                        </p>
+                        <p>
+                            En <strong>JusticiAPP </strong> somos respetuosos de sus datos e información personal, por tanto no transferimos de forma alguna su información a terceros, respetando todos los derechos que le confiere la ley 19.628. 
+                        </p>
 		</div>
 	</div>
 	<div class="row clearfix">
@@ -132,5 +141,10 @@
 		</div>
 	</div>
 </div>
+    <script type="text/javascript">
+        $('.carousel-inner').on("click",function(){
+           window.location.href = "justiciapp.php";
+        });
+    </script>
 </body>
 </html>
