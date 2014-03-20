@@ -1,13 +1,13 @@
 <div class="row clearfix">
-    <div class="col-md-4 column ui-sortable">
-            <h4>ROL</h4>
-    </div>
-    <div class="col-md-4 column ui-sortable">
-            <h4>CARATULADO</h4>
-    </div>
-    <div class="col-md-4 column ui-sortable">
-            <h4>TRIBUNAL</h4>
-    </div>
+    <table class="table" id="resultsHeader">
+        <thead>
+          <tr>
+            <th>ROL</th>
+            <th>CARATULADO</th>
+            <th>TRIBUNAL</th>
+          </tr>
+        </thead>
+    </table>
 </div>
 <div class="panel-group" id="panel-resBusqueda">
     <div class="panel panel-default">
@@ -17,15 +17,15 @@
                                 <a class="panel-title" data-parent="#panel-resBusqueda" data-toggle="collapse" href="#panel-res1">
                                     <div class="panel-heading">
                                         <div class="row clearfix">
-                                            <div class="col-md-4 column ui-sortable">
-                                                    <h4>C-2905-2014</h4>
-                                            </div>
-                                            <div class="col-md-4 column ui-sortable">
-                                                    <h4>VILCHES/ARAYA</h4>
-                                            </div>
-                                            <div class="col-md-4 column ui-sortable">
-                                                    <h4>1° Tribunal Civil</h4>
-                                            </div>
+                                                <table class="table">
+                                                    <thead>
+                                                      <tr>
+                                                        <th>C-2905-2014</th>
+                                                        <th>VILCHES/ARAYA</th>
+                                                        <th>1° TRIBUNAL CIVIL</th>
+                                                      </tr>
+                                                    </thead>
+                                                </table>
                                          </div>
                                     </div>
                                 </a>
@@ -161,16 +161,16 @@
                                 <a class="panel-title" data-parent="#panel-resBusqueda" data-toggle="collapse" href="#panel-res2">
                                     <div class="panel-heading">
                                         <div class="row clearfix">
-                                            <div class="col-md-4 column ui-sortable">
-                                                    <h4>C-2905-2014</h4>
-                                            </div>
-                                            <div class="col-md-4 column ui-sortable">
-                                                    <h4>VILCHES/ARAYA</h4>
-                                            </div>
-                                            <div class="col-md-4 column ui-sortable">
-                                                    <h4>1° Tribunal Civil</h4>
-                                            </div>
-                                         </div>
+                                                <table class="table">
+                                                    <thead>
+                                                      <tr>
+                                                        <th>C-2905-2014</th>
+                                                        <th>VILCHES/ARAYA</th>
+                                                        <th>1° TRIBUNAL CIVIL</th>
+                                                      </tr>
+                                                    </thead>
+                                                </table>
+                                        </div>
                                     </div>
                                 </a>
                                 <div id="panel-res2" class="panel-collapse collapse">
@@ -227,6 +227,7 @@
                                         <div>
                                             <button type="button" class="btn btn-primary" data-toggle="collapse" data-parent="#panel-766290" href="#panel-res2" >Cerrar</button>
                                         </div>
+                                        
                                 </div>
                         </div>		
                 </div>
