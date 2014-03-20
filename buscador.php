@@ -36,15 +36,18 @@
 	<?php include('components/header.php'); ?>
 	<div class="row clearfix">
 		<div class="col-md-4 column">
-			<h2> Buscador </h2>
-			<form role="form" class="">
 			  <div class="form-group">
 				<label for="trib" >Tipo de causa:</label>
 				<div>
 					<ul>
 						<li>
 							<label>
-							  <input id="trib" name="causa" type="radio"> Civil
+								<input id="trib"  type="radio" name="causa" value="all"> Todos
+							</label>
+						</li>
+						<li>
+							<label>
+							  <input name="causa" type="radio" value="civil"> Civil
 							</label>
 						</li>
 						<li>
@@ -65,23 +68,11 @@
 					</ul>
 				</div>
 			  </div>
-			  <div class="form-group">
-				<label for="tribunal">Tribunal</label>
-				<select class="form-control" id="tribunal" >
-					 <option>1</option>
-					 <option>2</option>
-				     <option>3</option>
-				     <option>4</option>
-				     <option>5</option>
-				</select>
-			  </div>
-				<label for="rut">Rut</label>
-				<input name="rut" type="text" id="rut" placeholder="Ingrese Rut">-
-				<input name="rutVer" type="text" style="width: 20px">
-			  <br>
-			  
-			</form>
-			<button type="submit" class="btn btn-default" id="buscar">Buscar</button>
+			<div class="row clearfix">
+				<div class="col-md-12 column" id="searchFormDiv">
+					
+				</div>
+			</div>
 		</div>
 		<div class="col-md-8 column" id="results">
 
@@ -101,6 +92,23 @@
 			$("#results").html(event);
 		});
 	});
+	$('input[name=causa]').on("click",function(event){
+		var value = $(this).val();
+		var formUrl = '';
+		switch(value){
+			case 'civil':
+				formUrl= 'components/searchForms/civil.php';
+				break;
+			default: 
+				formUrl = 'components/searchForms/default.php';
+		}
+		$.ajax(formUrl)
+		.done(function(result){
+			$('#searchFormDiv').html(result);
+		});
+	});
+	
+
 </script>
 </body>
 </html>

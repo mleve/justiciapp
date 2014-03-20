@@ -1,4 +1,4 @@
-<table class="table table-striped table-hover" >
+<table class="table table-striped table-hover" contenteditable="true">
       <thead>
         <tr>
           <th>#</th>
@@ -10,41 +10,10 @@
       <tbody>
       	<tr>
           <td>1</td>
-          <td><a id="modal-752769" href="#modal-container-752769" role="button" class="btn" data-toggle="modal">C-2905-2014</a></td>
+          <td><a role="button" class="btn detailResults" >C-2905-2014</a></td>
           <td>07/03/2014</td>
           <td>VILCHES / ARAYA</td>
 		  <!-- Modal -->
-			<div class="modal fade" id="modal-container-752769" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
-			  <div class="modal-dialog">
-				<div class="modal-content">
-				  <div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-					<h4 class="modal-title" id="myModalLabel" >C-2905-2014</h4>
-				  </div>
-				  <div class="modal-body">
-					<div class="row clearfix">
-						<div class="col-md-6 column ui-sortable">
-							Estado administrativo: Si
-						</div>
-						<div class="col-md-6 column ui-sortable">
-							Proc: Sumario Especial
-						</div>
-					</div>
-					<div class="row clearfix">
-						<div class="col-md-6 column ui-sortable">
-							Etapa: 0 ingreso
-						</div>
-						<div class="col-md-6 column ui-sortable">
-							Estado Proceso: Tramitación
-						</div>
-					</div>
-				  </div>
-				  <div class="modal-footer">
-					<button type="button" class="btn btn-primary" data-dismiss="modal" contenteditable="true">Cerrar</button>
-				  </div>
-				</div><!-- /.modal-content -->
-			  </div><!-- /.modal-dialog -->
-			</div><!-- /.modal -->
 
         </tr>
 		<!--
@@ -75,3 +44,14 @@
 		-->
       </tbody>
 </table>
+<script type="text/javascript">	
+	$('.detailResults').on("click",function(event){
+		event.preventDefault();
+		$.ajax("components/detailResult.php")
+		.done(function(result){
+			$("#results").html(result);
+		});
+	});
+	
+</script>
+

@@ -39,7 +39,7 @@
 			<div class="panel-group" id="panel-766290">
 				<div class="panel panel-default">
 					<div class="panel-heading">
-						 <a class="panel-title" data-toggle="collapse" data-parent="#panel-766290" href="#panel-element-481990">Categoría 1</a>
+						 <a class="panel-title" data-toggle="collapse" data-parent="#panel-766290" href="#panel-element-481990">Civil</a>
 					</div>
 					<div id="panel-element-481990" class="panel-collapse in">
 						<div class="panel-body">
@@ -52,7 +52,7 @@
 				</div>
 				<div class="panel panel-default">
 					<div class="panel-heading">
-						 <a class="panel-title" data-toggle="collapse" data-parent="#panel-766290" href="#panel-element-481991">Categoría 2</a>
+						 <a class="panel-title" data-toggle="collapse" data-parent="#panel-766290" href="#panel-element-481991">laboral</a>
 					</div>
 					<div id="panel-element-481991" class="panel-collapse collapse">
 						<div class="panel-body">
@@ -74,7 +74,7 @@
 				</div>
 				<div class="panel panel-default">
 					<div class="panel-heading">
-						 <a class="panel-title collapsed" data-toggle="collapse" data-parent="#panel-766290" href="#panel-element-422695">Categoría 3</a>
+						 <a class="panel-title collapsed" data-toggle="collapse" data-parent="#panel-766290" href="#panel-element-422695">Penal</a>
 					</div>
 					<div id="panel-element-422695" class="panel-collapse collapse">
 						<div class="panel-body">
@@ -84,7 +84,7 @@
 				</div>
 				<div class="panel panel-default">
 					<div class="panel-heading">
-						 <a class="panel-title" data-toggle="collapse" data-parent="#panel-766290" href="#panel-element-481992">Categoría 2</a>
+						 <a class="panel-title" data-toggle="collapse" data-parent="#panel-766290" href="#panel-element-481992">Familia</a>
 					</div>
 					<div id="panel-element-481992" class="panel-collapse collapse">
 						<div class="panel-body">
