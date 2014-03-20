@@ -135,7 +135,7 @@
                                                         Estado administrativo: Si
                                                 </div>
                                                 <div class="col-md-6 column ui-sortable">
-                                                        Proc: Sumario Especial
+                                                        Proc: Sumario Especial 
                                                 </div>
                                         </div>
                                         <div class="row clearfix">
