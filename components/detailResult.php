@@ -32,6 +32,7 @@
                                 <div id="panel-res1" class="panel-collapse collapse">
                                         <div class="row clearfix">
                                                 <div class="col-md-12 column ui-sortable">
+                                                   
                                                         <div class="panel panel-default">
                                                                 <div class="panel-heading">
                                                                          <a class="panel-title" data-toggle="collapse" data-parent="#panel-766290" href="#panel-element-481990">Notificaciones</a>
@@ -130,6 +131,46 @@
                                                         </div>		
                                                 </div>
                                         </div>
+                                        <div class="row clearfix">
+                                                <div class="col-md-12 column ui-sortable">
+                                                        <div class="panel panel-default">
+                                                                <div class="panel-heading">
+                                                                         <a class="panel-title" data-toggle="collapse" data-parent="#panel-766290" href="#panel-element-historia">Historia</a>
+                                                                </div>
+                                                                <div id="panel-element-historia" class="panel-collapse collapse in">
+                                                                        <div class="panel-body">
+                                                                             <table class="table table-condensed">
+                                                                                <thead>
+                                                                                  <tr>
+                                                                                    <th>Etapa</th>
+                                                                                    <th>Trámite</th>
+                                                                                    <th>Desc. Trámite</th>
+                                                                                    <th>Fecha</th>
+                                                                                    <th>Descargar</th>
+                                                                                  </tr>
+                                                                                </thead>
+                                                                                <tbody>
+                                                                                  <tr>
+                                                                                    <td>Ingreso</td>
+                                                                                    <td>Resolución</td>
+                                                                                    <td>Apercibimientos articulo 2 ley 18.120</td>
+                                                                                    <td>10/03/2014</td>
+                                                                                    <td> descargar <td>
+                                                                                  </tr>
+                                                                                  <tr>
+                                                                                    <td>Ingreso</td>
+                                                                                    <td>Escrito</td>
+                                                                                    <td>Ingreso demanda</td>
+                                                                                    <td>07/03/2014</td>
+                                                                                    <td>Descargar</td>
+                                                                                  </tr>
+                                                                                </tbody>
+                                                                              </table>
+                                                                        </div>
+                                                                </div>
+                                                        </div>		
+                                                </div>
+                                        </div>                                    
                                         <div class="row clearfix">
                                                 <div class="col-md-6 column ui-sortable">
                                                         Estado administrativo: Si
