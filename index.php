@@ -37,17 +37,52 @@
 	<?php include('components/header.php'); ?>
 	<div class="row clearfix">
 		<div class="col-md-12 column">
-			<div class="jumbotron well">
-				<h1 class="text-center">
-					Bienvenido!
-				</h1>
-				<p>
-					This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.
-				</p>
-				<p>
-					<a class="btn btn-primary btn-large" href="#">Learn more</a>
-				</p>
-			</div>
+                    <div class="carousel slide" id="carousel-489233">
+                      <ol class="carousel-indicators">
+                        <li class="active" data-slide-to="0" data-target="#carousel-489233"></li>
+                        <li data-slide-to="1" data-target="#carousel-489233" class=""></li>
+                        <li data-slide-to="2" data-target="#carousel-489233" class=""></li>
+                      </ol>
+                      <div class="carousel-inner">
+                        <div class="item active">
+                          <img alt="" src="http://lorempixel.com/1600/500/sports/1">
+                          <div class="carousel-caption">
+                            <h4>Bienvenido a JusticiApp</h4>
+                            <p>la plataforma que le permitirá conocer, administrar y enteder sus causas judiciales fácilmente</p>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <img alt="" src="http://lorempixel.com/1600/500/sports/2">
+                          <div class="carousel-caption">
+                            <h4>Acceso a la Justicia</h4>
+                            <p>Porque creemos que los ciudadan@s tenemos derecho a acceder a la justicia de forma transparente, actualizada, gratuita y comprensible.</p>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <img alt="" src="http://lorempixel.com/1600/500/sports/3">
+                          <div class="carousel-caption">
+                            <h4>Orientación</h4>
+                            <p> En JusticiApp tienes acceso a guías legales y a un buscador que te permitirá conocer tus causas,
+                                ademas de diagramas de funcionamiento del juicio, glosarios legales y acceso a leyes oficiales. Todo en un solo lugar.</p>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <img alt="" src="http://lorempixel.com/1600/500/sports/4">
+                          <div class="carousel-caption">
+                            <h4>Cercano</h4>
+                            <p>Explicamos en un lenguaje ciudadano, claro y conciso,
+                                ya que estamos convencidos de que la justicia no es solo de los abogados, la justicia es un tema de tod@s.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <a class="left carousel-control" href="#carousel-489233" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                      </a>
+                      <a class="right carousel-control" href="#carousel-489233" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                      </a>
+                    </div>			
 		</div>
 	</div>
 	<div class="row clearfix">
