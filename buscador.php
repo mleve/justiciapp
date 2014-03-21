@@ -42,7 +42,7 @@
 					<ul>
 						<li>
 							<label>
-								<input id="trib"  type="radio" name="causa" value="all"> Todos
+                                                            <input id="trib"  type="radio" name="causa" value="all" checked> Todos
 							</label>
 						</li>
 						<li>
@@ -52,17 +52,17 @@
 						</li>
 						<li>
 							<label>
-								<input type="radio" name="causa" > Laboral
+								<input type="radio" name="causa" value='laboral'> Laboral
 							</label>
 						</li>
 						<li>
 							<label>
-								<input type="radio" name="causa" > C. Apelaciones
+								<input type="radio" name="causa" value='apelaciones'> C. Apelaciones
 							</label>
 						</li>
 						<li>
 							<label>
-								<input type="radio" name="causa" > C. Suprema
+								<input type="radio" name="causa" value='suprema'> C. Suprema
 							</label>
 						</li>
 					</ul>
@@ -70,8 +70,11 @@
 			  </div>
 			<div class="row clearfix">
 				<div class="col-md-12 column" id="searchFormDiv">
-					
+					<?php include('components/searchForms/default.php'); ?>
 				</div>
+			</div>
+                        <div class="row clearfix">
+				<button class="btn btn-default" id="buscarBtn">Buscar</button>
 			</div>
 		</div>
 		<div class="col-md-8 column" id="results">
@@ -86,11 +89,36 @@
 	</div>
 </div>
 <script type="text/javascript">
-	$('#buscar').on("click", function(){
-		$.ajax("searchResult.php")
+	$('#buscarBtn').on("click",function(event){
+            event.preventDefault();
+
+                var tribunal = $('input[name=causa]:checked').val();
+                var resUrl = '';
+                switch(tribunal){
+                    case 'all':
+                        resUrl = 'components/resultAll.php';
+                        break;
+                    case 'civil':
+                        resUrl = 'components/resultCivil.php';
+                        break;
+                    case 'laboral':
+                        resUrl = 'components/resultLaboral.php';
+                        break;
+                    case 'apelaciones':
+                        resUrl = 'components/resultApelaciones.php';
+                        break;
+                    case 'suprema':
+                        resUrl = 'components/resultEmpty.php';
+                        break;
+                    default:
+                        resUrl = 'components/resultEmpty.php';
+                        break;
+                }
+		$.ajax(resUrl)
 		.done(function(event){
 			$("#results").html(event);
 		});
+
 	});
 	$('input[name=causa]').on("click",function(event){
 		var value = $(this).val();
