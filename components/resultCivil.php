@@ -1,4 +1,4 @@
-<div class="row clearfix">
+d<iv class="row clearfix">
     <table class="table" id="resultsHeader">
         <thead>
             <tr>
@@ -143,7 +143,7 @@
                             <div class="panel-heading">
                                 <a class="panel-title" data-toggle="collapse" data-parent="#panel-res1" href=".panel-historia">Historia</a>                                                            
                             </div>
-                            <div class="panel-collapse collapse panel-historia" >
+                            <div class="panel-collapse collapse in panel-historia" >
                                 <div class="panel-body">
                                     <table class="table table-condensed">
                                         <thead>

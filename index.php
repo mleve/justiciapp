@@ -101,7 +101,7 @@
 				<li> Corte Suprema </li>
 			</ul>
 			<p> Ademas, te ofrecemos guiás que te ayuden a entender tus causas </p>
-			<div class="text-center"> <a class="btn btn-primary btn-large" href="#">Ir al buscador</a> </div>			
+			<div class="text-center"> <a class="btn btn-primary btn-large" href="buscador.php">Ir al buscador</a> </div>			
 		</div>
 		<div class="col-md-6 column">
 			<h3 class="text-center">

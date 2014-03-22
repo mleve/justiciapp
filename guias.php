@@ -36,110 +36,118 @@
 	<?php include('components/header.php'); ?>
 	<div class="row clearfix">
 		<div class="col-md-4 column">
-			<div class="panel-group" id="panel-766290">
+			<div class="panel-group" id="panel-guides">
 				<div class="panel panel-default">
 					<div class="panel-heading">
-						 <a class="panel-title" data-toggle="collapse" data-parent="#panel-766290" href="#panel-element-481990">Civil</a>
+						 <a class="panel-title" data-toggle="collapse" data-parent="#panel-guides" href="#panel-guides-civil">Civíl</a>
 					</div>
-					<div id="panel-element-481990" class="panel-collapse in">
+					<div id="panel-guides-civil" class="panel-collapse in">
 						<div class="panel-body">
-							<a href="#" >Guia 1</a>
+							<a href="components/guides/civil/arrendamiento.php" class="guideLink" >Arrendamiento</a>
 						</div>
 						<div class="panel-body">
-							<a href="#" >Guia 2</a>
+							<a href="components/guides/civil/cambioNombre.php" class="guideLink" >Cambio de nombre</a>
+						</div>
+						<div class="panel-body">
+							<a href="components/guides/civil/derConsumidor.php" class="guideLink" >Derechos del consumidor</a>
+						</div>
+						<div class="panel-body">
+							<a href="components/guides/civil/testamento.php" class="guideLink" >Testamento</a>
 						</div>
 					</div>
 				</div>
 				<div class="panel panel-default">
 					<div class="panel-heading">
-						 <a class="panel-title" data-toggle="collapse" data-parent="#panel-766290" href="#panel-element-481991">laboral</a>
+						 <a class="panel-title" data-toggle="collapse" data-parent="#panel-guides" href="#panel-guides-familia">Familia</a>
 					</div>
-					<div id="panel-element-481991" class="panel-collapse collapse">
+					<div id="panel-guides-familia" class="panel-collapse collapse">
 						<div class="panel-body">
-							<a href="#" >Guia 1</a>
+							<a href="components/guides/familia/adopcion.php" class="guideLink">Adopción</a>
 						</div>
 						<div class="panel-body">
-							<a href="#" >Guia 2</a>
+							<a href="components/guides/familia/adopcion.php" class="guideLink">Divorcio</a>
 						</div>
 						<div class="panel-body">
-							<a href="#" >Guia 3</a>
+							<a href="components/guides/familia/adopcion.php" class="guideLink">Pension alimenticia</a>
 						</div>
 						<div class="panel-body">
-							<a href="#" >Guia 4</a>
-						</div>
-						<div class="panel-body">
-							<a href="#" >Guia 5</a>
+							<a href="components/guides/familia/adopcion.php" class="guideLink">Violencia Intrafamiliar</a>
 						</div>
 					</div>
 				</div>
 				<div class="panel panel-default">
 					<div class="panel-heading">
-						 <a class="panel-title collapsed" data-toggle="collapse" data-parent="#panel-766290" href="#panel-element-422695">Penal</a>
+						 <a class="panel-title" data-toggle="collapse" data-parent="#panel-guides" href="#panel-guides-laboral">Laboral</a>
 					</div>
-					<div id="panel-element-422695" class="panel-collapse collapse">
+					<div id="panel-guides-laboral" class="panel-collapse collapse">
 						<div class="panel-body">
-							<a href="#" > Guía 1</a>
+							<a href="components/guides/laboral/accidentes.php" class="guideLink">Accidentes del trabajo</a>
+						</div>
+						<div class="panel-body">
+							<a href="components/guides/laboral/indemnizacion.php" class="guideLink">Indemnización por despido</a>
+						</div>
+						<div class="panel-body">
+							<a href="components/guides/laboral/ctoTrabajo.php" class="guideLink">Termino contrato trabajo</a>
+						</div>
+						<div class="panel-body">
+							<a href="components/guides/laboral/tribunalesLaborales.php" class="guideLink">Tribunales Laborales</a>
 						</div>
 					</div>
 				</div>
 				<div class="panel panel-default">
 					<div class="panel-heading">
-						 <a class="panel-title" data-toggle="collapse" data-parent="#panel-766290" href="#panel-element-481992">Familia</a>
+						 <a class="panel-title" data-toggle="collapse" data-parent="#panel-guides" href="#panel-guides-penal">penal</a>
 					</div>
-					<div id="panel-element-481992" class="panel-collapse collapse">
+					<div id="panel-guides-penal" class="panel-collapse collapse">
 						<div class="panel-body">
-							<a href="#" >Guia 1</a>
+							<a href="components/guides/penal/abusoSexualMenores.php" class="guideLink">Abuso sexual menores</a>
 						</div>
 						<div class="panel-body">
-							<a href="#" >Guia 2</a>
+							<a href="components/guides/penal/DerechosPenal.php" class="guideLink">Derecho justicia penal</a>
 						</div>
 						<div class="panel-body">
-							<a href="#" >Guia 3</a>
+							<a href="components/guides/penal/reforma.php" class="guideLink">Reforma procesal penal</a>
 						</div>
 						<div class="panel-body">
-							<a href="#" >Guia 4</a>
-						</div>
-						<div class="panel-body">
-							<a href="#" >Guia 5</a>
+							<a href="components/guides/penal/respAdolecente.php" class="guideLink">Responsabilidad penal adolescente</a>
 						</div>
 					</div>
 				</div>
+
 			</div>
 		</div>
-		<div class="col-md-8 column">
-			<div class="row clearfix">
-				<div class="col-md-6 column">
-					<h3>
-						h3. Lorem ipsum dolor sit amet.
-					</h3>
-				</div>
-				<div class="col-md-6 column">
-					<img alt="140x140" src="http://lorempixel.com/140/140/">
-				</div>
-			</div>
-			<div class="row clearfix">
-				<div class="col-md-12 column">
-					<h3>
-						Introducción
-					</h3>
-					<p>
-						Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
-					</p> <button type="button" class="btn btn-info">Default</button>
-				</div>
-			</div>
-			<div class="row clearfix">
-				<div class="col-md-12 column">
-					<h3>
-						Pasos a seguir
-					</h3><img alt="140x140" src="http://lorempixel.com/140/140/" class="img-rounded">
-				</div>
-			</div>
-			<div class="row clearfix">
-				<div class="col-md-12 column">
-				</div>
-			</div> <button type="button" class="btn btn-lg btn-default">Default</button>
+		<div class="col-md-8 column" id="guideSection">
+                    <h2> Guías legales</h2>
+                    <p>
+                        En esta sección te ofrecemos orientación legal, en formato de preguntas y respuestas, simple, claro y consciso.
+                    </p>
+                    
+                    <h4 class="text-center"> Notas</h4>
+                    <p>
+                        1.- La información aquí contenida es un material de referencia para entender el funcionamiento de las leyes. 
+                        En ningún caso debe ser considerada como la ley en sí, doctrina, argumento legal ni sustituto de un abogado. 
+                    </p>
+                    <p>
+                        2.- Algunas guias son una versión modificada de artículos originalmente publicados por la Biblioteca del congreso nacional 
+                        disponible en http://www.bcn.cl/leyfacil  bajo una 
+                        licencia de uso Creativecommons (by-sa/3.0/cl)                      
+                    </p>
+                    <p>
+                        3.-Los presentes recursos son publicados bajo licencia de uso Creativecommons (by-sa/3.0/cl)
+                    </p>
+			
 		</div>
 	</div>
-</div>
+    <script type ="text/javascript">
+        $('.guideLink').on('click',function(event){
+            event.preventDefault();
+            var url = $(this).attr('href');
+            $.ajax(url)
+                    .done(function(response){
+                        $('#guideSection').html(response);
+                    });
+            
+        });
+    </script>
 </body>
 </html>
