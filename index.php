@@ -48,7 +48,7 @@
                         <div class="item active">
                           <img alt="" src="http://lorempixel.com/1600/500/sports/1">
                           <div class="carousel-caption">
-                            <h4>Bienvenido a JusticiApp</h4>
+                            <h4>Bienvenido a EasyJustice</h4>
                             <p>la plataforma que le permitirá conocer, administrar y enteder sus causas judiciales fácilmente</p>
                           </div>
                         </div>
@@ -63,7 +63,7 @@
                           <img alt="" src="http://lorempixel.com/1600/500/sports/3">
                           <div class="carousel-caption">
                             <h4>Orientación</h4>
-                            <p> En JusticiApp tienes acceso a guías legales y a un buscador que te permitirá conocer tus causas,
+                            <p> En EasyJustice tienes acceso a guías legales y a un buscador que te permitirá conocer tus causas,
                                 ademas de diagramas de funcionamiento del juicio, glosarios legales y acceso a leyes oficiales. Todo en un solo lugar.</p>
                           </div>
                         </div>
@@ -108,7 +108,7 @@
 				Guias
 			</h3>
 			<p>
-				¿No sabes como comenzar?, en <strong> NOMBREAPLICACION</strong> te explicamos.
+				¿No sabes como comenzar?, en <strong> EasyJustice</strong> te explicamos.
 			</p>
 			<p>
 				Hemos preparado una serie de guías legales para guiarte en los procesos judiciales mas comunes
@@ -123,27 +123,23 @@
 				Disclaimer
 			</h3>
 			<p>
-                            El proyecto <strong>JusticiaAPP</strong> se desarrolla en el marco del primer  concurso de Derecho y Acceso a la Justicia,
+                            El proyecto <strong>EasyJustice</strong> se desarrolla en el marco del primer  concurso de Derecho y Acceso a la Justicia,
                             organizado por el 
                             <a target="_blank" href="http://www.derecho.uchile.cl/noticias/97367/primer-concurso-tecnologia-y-acceso-a-la-justicia">Poder Judicial de la República de Chile</a>.
                         </p>
                         <p>
-                            <strong>JusticiaAPP</strong> consulta las bases de datos públicas del Poder Judicial, por tanto en caso de existir causas reservadas dicho contenido no será exhibido.
+                            <strong>EasyJustice</strong> consulta las bases de datos públicas del Poder Judicial, por tanto en caso de existir causas reservadas dicho contenido no será exhibido.
                         </p>
                         <p>
-                            En <strong>JusticiAPP </strong> somos respetuosos de sus datos e información personal, por tanto no transferimos de forma alguna su información a terceros, respetando todos los derechos que le confiere la ley 19.628. 
+                            En <strong>EasyJustice</strong> somos respetuosos de sus datos e información personal, por tanto no transferimos de forma alguna su información a terceros, respetando todos los derechos que le confiere la ley 19.628. 
                         </p>
 		</div>
 	</div>
-	<div class="row clearfix">
-		<div class="col-md-12 column text-right">
-			 <address> <strong>Twitter, Inc.</strong><br> 795 Folsom Ave, Suite 600<br> San Francisco, CA 94107<br> <abbr title="Phone">P:</abbr> (123) 456-7890</address>
-		</div>
-	</div>
+        <?php include 'components/footer.php'; ?>
 </div>
     <script type="text/javascript">
         $('.carousel-inner').on("click",function(){
-           window.location.href = "justiciapp.php";
+           window.location.href = "easyJustice.php";
         });
     </script>
 </body>

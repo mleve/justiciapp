@@ -65,6 +65,11 @@
                                     <input type="radio" name="causa" value='suprema'> C. Suprema
                                 </label>
                             </li>
+                            <li>
+                                <label>
+                                    <input type="radio" name="causa" value='penal'> Penal
+                                </label>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -87,62 +92,68 @@
 
             </div>
         </div>
-    </div>
-    <script type="text/javascript">
-        $('#buscarBtn').on("click", function(event) {
-            event.preventDefault();
+        <?php include 'components/footer.php'; ?>
+        <script type="text/javascript">
+            $('#buscarBtn').on("click", function(event) {
+                event.preventDefault();
 
-            var tribunal = $('input[name=causa]:checked').val();
-            var resUrl = '';
-            switch (tribunal) {
-                case 'all':
-                    resUrl = 'components/resultAll.php';
-                    break;
-                case 'civil':
-                    resUrl = 'components/resultCivil.php';
-                    break;
-                case 'laboral':
-                    resUrl = 'components/resultLaboral.php';
-                    break;
-                case 'apelaciones':
-                    resUrl = 'components/resultApelaciones.php';
-                    break;
-                case 'suprema':
+                var tribunal = $('input[name=causa]:checked').val();
+                var resUrl = '';
+                var rut = $('#rut').val();
+                if (rut != 7446877) {
                     resUrl = 'components/resultEmpty.php';
-                    break;
-                default:
-                    resUrl = 'components/resultEmpty.php';
-                    break;
-            }
-            $.ajax(resUrl)
-                    .done(function(event) {
-                        $("#results").html(event);
-                    });
+                }
+                else {
+                    switch (tribunal) {
+                        case 'all':
+                            resUrl = 'components/resultAll.php';
+                            break;
+                        case 'civil':
+                            resUrl = 'components/resultCivil.php';
+                            break;
+                        case 'laboral':
+                            resUrl = 'components/resultLaboral.php';
+                            break;
+                        case 'apelaciones':
+                            resUrl = 'components/resultApelaciones.php';
+                            break;
+                        case 'suprema':
+                            resUrl = 'components/resultEmpty.php';
+                            break;
+                        default:
+                            resUrl = 'components/resultEmpty.php';
+                            break;
+                    }
+                }
+                $.ajax(resUrl)
+                        .done(function(event) {
+                            $("#results").html(event);
+                        });
 
-        });
-        $('input[name=causa]').on("click", function(event) {
-            var value = $(this).val();
-            var formUrl = '';
-            switch (value) {
-                case 'civil':
-                    formUrl = 'components/searchForms/civil.php';
-                    break;
-                case 'laboral':
-                    formUrl = 'components/searchForms/laboral.php';
-                    break;
-                case 'apelaciones':
-                    formUrl = 'components/searchForms/apelaciones.php';
-                    break;
-                default:
-                    formUrl = 'components/searchForms/default.php';
-            }
-            $.ajax(formUrl)
-                    .done(function(result) {
-                        $('#searchFormDiv').html(result);
-                    });
-        });
+            });
+            $('input[name=causa]').on("click", function(event) {
+                var value = $(this).val();
+                var formUrl = '';
+                switch (value) {
+                    case 'civil':
+                        formUrl = 'components/searchForms/civil.php';
+                        break;
+                    case 'laboral':
+                        formUrl = 'components/searchForms/laboral.php';
+                        break;
+                    case 'apelaciones':
+                        formUrl = 'components/searchForms/apelaciones.php';
+                        break;
+                    default:
+                        formUrl = 'components/searchForms/default.php';
+                }
+                $.ajax(formUrl)
+                        .done(function(result) {
+                            $('#searchFormDiv').html(result);
+                        });
+            });
 
 
-    </script>
-</body>
+        </script>
+    </body>
 </html>

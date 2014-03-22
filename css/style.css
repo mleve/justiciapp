@@ -17,3 +17,7 @@
 .helpRow{
     border: 10px solid rgb(128, 128, 128);
 }
+#footer{
+ border-top: 4px solid #DDD;
+ margin-top: 50px;
+}

@@ -6,7 +6,7 @@
 		<div class="col-md-6 column">
 			<div class="page-header">
 				<h1>
-					NOMBREAPLICACION <small>Subtext for header</small>
+					EasyJustice<br><small>La justicia en tus manos, facilmente</small>
 				</h1>
 			</div>
 		</div>
@@ -21,7 +21,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					 </button> 
-					 <a class="navbar-brand" href="index.php">NOMBREAPLICACION</a>
+					 <a class="navbar-brand" href="index.php">EasyJustice</a>
 				</div>
 				
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -33,7 +33,10 @@
 							<a href="buscador.php">Buscador</a>
 						</li>
                                                 <li>
-							<a href="justiciapp.php">Acerca de</a>
+                                                    <a href="glosario.php">Glosario</a>
+                                                </li>
+                                                <li>
+							<a href="easyJustice.php">Acerca de</a>
 						</li>
 
 					</ul>

@@ -130,7 +130,7 @@
                 </div>
             </div>
             <div>
-                <button type="button" class="btn btn-primary close-cause" data-toggle="collapse" href="#panel-resLaboral" >Cerrar</button>
+                <button type="button" class="btn btn-primary close-cause" data-toggle="collapse" href="#panel-resApelaciones" >Cerrar</button>
             </div>
 
         </div>
