@@ -36,13 +36,15 @@
                     <div class="col-md-4 column ui-sortable">
                         <a id="modal-660944" href="#modal-container" 
                            role="button" class="btn helpBtn" 
-                           data-toggle="modal" data-url="components/guides/civil/arrendamiento.php"><h4>Guía</h4></a>
+                           data-toggle="modal" data-url="components/guides/civil/arrendamiento.php"
+                           data-title="Guía arrendamiento"><h4>Guía</h4></a>
                         
                     </div>
                     <div class="col-md-4 column ui-sortable">
                         <a id="modal-660944" href="#modal-container" 
                            role="button" class="btn helpBtn" 
-                           data-toggle="modal" data-url="components/diagrams/arrendamiento.php"><h4>Diagrama</h4></a>
+                           data-toggle="modal" data-url="components/diagrams/arrendamiento.php"
+                           data-title="Diagrama Arrendamiento"><h4>Diagrama</h4></a>
                         
                     </div>
                     <div class="col-md-4 column ui-sortable">
@@ -239,7 +241,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                    <h4 class="modal-title" id="myModalLabel" contenteditable="true">Modal title</h4>
+                    <h4 class="modal-title" id="myModalLabel" ">Modal title</h4>
                 </div>
                 <div class="modal-body">
                     <div class="row clearfix">
@@ -260,6 +262,7 @@
    $('.helpBtn').on('click',function(event){
        event.preventDefault();
        var url = $(this).attr('data-url');
+       $('.modal-title').html($(this).attr('data-title'));
        $.ajax(url)
                .done(function(response){
                    $('#modalBody').html(response);
