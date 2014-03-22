@@ -3,7 +3,9 @@
         <h2>
             Preguntas Frecuentes Arrendamiento
         </h2>
-        <h4>Leyes relacionadas con esta materia: 18101</h4>
+        <h4>Leyes relacionadas con esta materia:
+             <a href="http://www.leychile.cl/Consulta/m/m/norma_plana?idNorma=61438&org=bleyes_r?t_n=XX1&nro_ley=19496&orga=&f_pub=" target="_blank">19.496</a>
+        </h4>
     </div>
 </div>
 <div class="row clearfix">

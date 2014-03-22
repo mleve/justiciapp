@@ -1,9 +1,9 @@
 <div class="row clearfix">
     <div class="col-md-12 column">
         <h2>
-            Preguntas Frecuentes Arrendamiento
+            Preguntas frecuentes en materia de cambio de Nombres y Apellidos
         </h2>
-        <h4>Leyes relacionadas con esta materia: 18101</h4>
+        <h4>Leyes relacionadas con esta materia: <a href="http://www.leychile.cl/Consulta/m/m/norma_plana?idNorma=28940&org=bleyes_r?t_n=XX1&nro_ley=17344&orga=&f_pub=" target="_blank" >17.344</a></h4>
     </div>
 </div>
 <div class="row clearfix">

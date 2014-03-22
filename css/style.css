@@ -21,3 +21,8 @@
  border-top: 4px solid #DDD;
  margin-top: 50px;
 }
+.imgForCarousel{
+  width: auto;
+  height: 400px;
+  max-height: 400px; 
+}
