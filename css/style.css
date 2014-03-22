@@ -2,6 +2,18 @@
     cursor: pointer;
 }
 #resultsHeader{
-   border-bottom: 10px solid white;
-   margin-left: 25px; 
+    border-bottom: 10px solid white;
+    margin-left: 25px; 
+}
+.causaResult{
+    background-color: #f5f5f5;
+}
+
+.close-cause{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+.helpRow{
+    border: 10px solid rgb(128, 128, 128);
 }

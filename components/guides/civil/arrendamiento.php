@@ -199,14 +199,3 @@
         </div>
     </div>
 </div>
-<div class="row clearfix">
-    <div class="col-md-12 column">
-        <h3>
-            Pasos a seguir
-        </h3><img alt="140x140" src="http://lorempixel.com/140/140/" class="img-rounded">
-    </div>
-</div>
-<div class="row clearfix">
-    <div class="col-md-12 column">
-    </div>
-</div> <button type="button" class="btn btn-lg btn-default">Default</button>

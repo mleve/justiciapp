@@ -1,4 +1,5 @@
-d<iv class="row clearfix">
+<div class="row clearfix">
+    <h1 class="text-center">Resultados encontrados</h1>
     <table class="table" id="resultsHeader">
         <thead>
             <tr>
@@ -13,28 +14,65 @@ d<iv class="row clearfix">
     <div class="panel panel-default">
         <div class="panel-heading">
             <a class="panel-title" data-parent="#panel-resBusqueda" data-toggle="collapse" href="#panel-res1">
-                <div class="panel-heading">
-                    <div class="row clearfix">
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <th>C-2905-2014</th>
-                                    <th>VILCHES/ARAYA</th>
-                                    <th>1° TRIBUNAL CIVIL</th>
-                                </tr>
-                            </thead>
-                        </table>
-                    </div>
+                <div class="row clearfix">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>C-2905-2014</th>
+                                <th>VILCHES/ARAYA</th>
+                                <th>1° TRIBUNAL CIVIL</th>
+                            </tr>
+                        </thead>
+                    </table>
                 </div>
             </a>
         </div>
-        <div id="panel-res1" class="panel-collapse collapse">
+        <div id="panel-res1" class="panel-collapse collapse causaResult">
+            <div class="row clearfix helpRow">
+                <div class="col-md-12 column ui-sortable ">
+                    <h3>Esta causa es del tipo: <strong> algo </strong></h3>
+                    <h4> ¿Necesitas ayuda?</h4>
+                    <h4> Tenemos guías para resolver todas tus dudas, un diagrama que te explicara las fases del proceso, o puedes revisar las leyes asociadas a esta causa:</h4>
+                    <div class="col-md-4 column ui-sortable">
+                        <a id="modal-660944" href="#modal-container" 
+                           role="button" class="btn helpBtn" 
+                           data-toggle="modal" data-url="components/guides/civil/arrendamiento.php"><h4>Guía</h4></a>
+                        
+                    </div>
+                    <div class="col-md-4 column ui-sortable">
+                        <a id="modal-660944" href="#modal-container" 
+                           role="button" class="btn helpBtn" 
+                           data-toggle="modal" data-url="components/diagrams/arrendamiento.php"><h4>Diagrama</h4></a>
+                        
+                    </div>
+                    <div class="col-md-4 column ui-sortable">
+                        <a id="modal-660944" href="#modal-container" role="button" class="btn helpBtn" data-toggle="modal"><h4>Leyes</h4></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row clearfix">
+                <div class="col-md-6 column ui-sortable">
+                    Estado administrativo: Si
+                </div>
+                <div class="col-md-6 column ui-sortable">
+                    Proc: Sumario Especial 
+                </div>
+            </div>
+            <div class="row clearfix">
+                <div class="col-md-6 column ui-sortable">
+                    Etapa: 0 ingreso
+                </div>
+                <div class="col-md-6 column ui-sortable">
+                    Estado Proceso: Tramitación
+                </div>
+            </div>
+
             <div class="row clearfix">
                 <div class="col-md-12 column ui-sortable">
                     <div class="panelgroup" id="panel-interno">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <a class="panel-title" data-toggle="collapse" data-parent="#panel-res1" href=".panel-notificaciones">Notificaciones</a>
+                                <a class="panel-title" data-toggle="collapse" data-parent="#panel-interno" href=".panel-notificaciones">Notificaciones</a>
                             </div>
                             <div class="panel-collapse collapse panel-notificaciones" >
                                 <div class="panel-body">
@@ -87,7 +125,7 @@ d<iv class="row clearfix">
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <a class="panel-title" data-toggle="collapse" data-parent="#panel-res1" href=".panel-litigantes">Litigantes</a>
+                                <a class="panel-title" data-toggle="collapse" data-parent="#panel-interno" href=".panel-litigantes">Litigantes</a>
 
                             </div>
                             <div class="panel-collapse collapse panel-litigantes">
@@ -141,7 +179,7 @@ d<iv class="row clearfix">
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <a class="panel-title" data-toggle="collapse" data-parent="#panel-res1" href=".panel-historia">Historia</a>                                                            
+                                <a class="panel-title" data-toggle="collapse" data-parent="#panel-interno" href=".panel-historia">Historia</a>                                                            
                             </div>
                             <div class="panel-collapse collapse in panel-historia" >
                                 <div class="panel-body">
@@ -182,27 +220,51 @@ d<iv class="row clearfix">
                     </div>
                 </div>
             </div>
-            <div class="row clearfix">
-                <div class="col-md-6 column ui-sortable">
-                    Estado administrativo: Si
-                </div>
-                <div class="col-md-6 column ui-sortable">
-                    Proc: Sumario Especial 
-                </div>
-            </div>
-            <div class="row clearfix">
-                <div class="col-md-6 column ui-sortable">
-                    Etapa: 0 ingreso
-                </div>
-                <div class="col-md-6 column ui-sortable">
-                    Estado Proceso: Tramitación
-                </div>
-            </div>
             <div>
-                <button type="button" class="btn btn-primary" data-toggle="collapse" href="#panel-res1" >Cerrar</button>
+                <button type="button" class="btn btn-primary close-cause" data-toggle="collapse" href="#panel-res1" >Cerrar</button>
             </div>
+
         </div>
 
     </div>
 
 </div>
+<div class="view">
+    <!-- Button to trigger modal -->
+   
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal-container" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title" id="myModalLabel" contenteditable="true">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row clearfix">
+                        <div class="col-md-12" id="modalBody">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+</div>
+<script type="text/javascript">
+   $('.helpBtn').on('click',function(event){
+       event.preventDefault();
+       var url = $(this).attr('data-url');
+       $.ajax(url)
+               .done(function(response){
+                   $('#modalBody').html(response);
+                   $(this).unbind('click');
+               });
+       
+   }); 
+</script>
