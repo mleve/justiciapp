@@ -109,8 +109,9 @@
                     </p>
                     <ul>
                         <li> Civiles </li>
+                        <li> Laborales y cobranza laboral </li>
+                        <li> Penales </li>
                         <li> Corte de Apelaciones </li>
-                        <li> Laborales </li>
                         <li> Corte Suprema </li>
                     </ul>
                     <p> Ademas, te ofrecemos guiás que te ayuden a entender tus causas </p>
@@ -136,9 +137,9 @@
                         Disclaimer
                     </h3>
                     <p>
-                        El proyecto <strong>EasyJustice</strong> se desarrolla en el marco del primer  concurso de Derecho y Acceso a la Justicia,
-                        organizado por el 
-                        <a target="_blank" href="http://www.derecho.uchile.cl/noticias/97367/primer-concurso-tecnologia-y-acceso-a-la-justicia">Poder Judicial de la República de Chile</a>.
+                        El proyecto <strong>EasyJustice</strong> se desarrolla en el marco del 
+                        <a target="_blank" href="http://www.derecho.uchile.cl/noticias/97367/primer-concurso-tecnologia-y-acceso-a-la-justicia">primer  concurso de Derecho y Acceso a la Justicia</a>
+                         , organizado por el Poder Judicial de la República de Chile
                     </p>
                     <p>
                         <strong>EasyJustice</strong> consulta las bases de datos públicas del Poder Judicial, por tanto en caso de existir causas reservadas dicho contenido no será exhibido.

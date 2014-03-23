@@ -3,7 +3,7 @@
         <h2>
             Preguntas frecuentes en materia de Pedofilia y abuso de Menores
         </h2>
-        <h4>Leyes relacionadas con esta materia: 20207</h4>
+        <h4>Leyes relacionadas con esta materia: <a href="http://www.leychile.cl/Consulta/m/m/norma_plana?idNorma=1984&org=bleyes_r?t_n=txt&nro_ley=codigo+penal&orga=&f_pub=" target="_blank">Código Penal (artículos 342 y siguientes)</a></h4>
     </div>
 </div>
 <div class="row clearfix">

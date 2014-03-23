@@ -57,6 +57,11 @@
                             </li>
                             <li>
                                 <label>
+                                    <input type="radio" name="causa" value='cobLaboral'> Cobranza Laboral
+                                </label>
+                            </li>
+                            <li>
+                                <label>
                                     <input type="radio" name="causa" value='apelaciones'> C. Apelaciones
                                 </label>
                             </li>

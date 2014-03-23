@@ -38,7 +38,7 @@
         <div class="panel-group" id="panel-questions">
     <?php
     $fila = 1;
-    if (($gestor = fopen("abusosSexual.csv", "r")) !== FALSE) {
+    if (($gestor = fopen("respAdolescente.csv", "r")) !== FALSE) {
         while (($datos = fgetcsv($gestor, 1000, ";")) !== FALSE) {
             $numero = count($datos);
             $fila++;

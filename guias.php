@@ -65,13 +65,13 @@
                                 <a href="components/guides/familia/adopcion.php" class="guideLink">Adopción</a>
                             </div>
                             <div class="panel-body">
-                                <a href="components/guides/familia/adopcion.php" class="guideLink">Divorcio</a>
+                                <a href="components/guides/familia/divorcio.php" class="guideLink">Divorcio</a>
                             </div>
                             <div class="panel-body">
-                                <a href="components/guides/familia/adopcion.php" class="guideLink">Pension alimenticia</a>
+                                <a href="components/guides/familia/pensionAl.php" class="guideLink">Pension alimenticia</a>
                             </div>
                             <div class="panel-body">
-                                <a href="components/guides/familia/adopcion.php" class="guideLink">Violencia Intrafamiliar</a>
+                                <a href="components/guides/familia/violencia.php" class="guideLink">Violencia Intrafamiliar</a>
                             </div>
                         </div>
                     </div>
@@ -96,20 +96,20 @@
                     </div>
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <a class="panel-title" data-toggle="collapse" data-parent="#panel-guides" href="#panel-guides-penal">penal</a>
+                            <a class="panel-title" data-toggle="collapse" data-parent="#panel-guides" href="#panel-guides-penal">Penal</a>
                         </div>
                         <div id="panel-guides-penal" class="panel-collapse collapse">
                             <div class="panel-body">
                                 <a href="components/guides/penal/abusoSexualMenores.php" class="guideLink">Abuso sexual menores</a>
                             </div>
                             <div class="panel-body">
-                                <a href="components/guides/penal/DerechosPenal.php" class="guideLink">Derecho justicia penal</a>
+                                <a href="components/guides/penal/derechos.php" class="guideLink">Derechos justicia penal</a>
                             </div>
                             <div class="panel-body">
                                 <a href="components/guides/penal/reforma.php" class="guideLink">Reforma procesal penal</a>
                             </div>
                             <div class="panel-body">
-                                <a href="components/guides/penal/respAdolecente.php" class="guideLink">Responsabilidad penal adolescente</a>
+                                <a href="components/guides/penal/respAdolescente.php" class="guideLink">Responsabilidad penal adolescente</a>
                             </div>
                         </div>
                     </div>
