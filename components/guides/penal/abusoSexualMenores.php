@@ -14,7 +14,7 @@
                 <div class="panel-heading">
                     <a class="panel-title" data-toggle="collapse" data-parent="#panel-questions" href="#panel-element-2">Cuál es la definición de pedofilia?</a>
                 </div>
-                <div id="panel-element-2" class="panel-collapse collapse">
+                <div id="panel-element-2" class="panel-collapse collapse in">
                     <div class="panel-body">
                         <p>Aunque la ley no usa específicamente la palabra “pedofilia”, sí califica como delito el acceso carnal por vía vaginal, anal o bucal a una persona menor de catorce años, aun cuando no exista fuerza, intimidación o incapacidad de la víctima para defenderse.</p>
                         <p></p>

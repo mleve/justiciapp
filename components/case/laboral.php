@@ -5,9 +5,9 @@
                     <table class="table">
                         <thead>
                             <tr>
+                                <th>2º Juzgado de Letras del Trabajo de Santiago</th>
                                 <th>O-861-2014</th>
                                 <th>VILCHES CON VALLADE</th>
-                                <th>2º Juzgado de Letras del Trabajo de Santiago</th>
                             </tr>
                         </thead>
                     </table>
@@ -17,32 +17,38 @@
         <div id="panel-resLaboral" class="panel-collapse collapse causaResult">
             <div class="row clearfix helpRow">
                 <div class="col-md-12 column ui-sortable ">
-                    <h3>Esta causa es del tipo: <strong> algo </strong></h3>
-                    <h4> ¿Necesitas ayuda?</h4>
-                    <h4> Tenemos guías para resolver todas tus dudas, un diagrama que te explicara las fases del proceso, o puedes revisar las leyes asociadas a esta causa:</h4>
+                    <h3>Esta causa es del tipo: <strong> Desafuero Maternal</strong></h3>
+                    <h4> <strong>¿Necesitas ayuda?</strong></h4>
+                    <h4> Revisa más abajo las guías legales para resolver todas tus dudas, un diagrama que te explicará las fases de este proceso o revisa en detalle  las leyes oficiales asociadas a esta causa:</h4>
                     <div class="col-md-4 column ui-sortable">
                         <a id="modal-660944" href="#modal-container" 
                            role="button" class="btn helpBtn" 
-                           data-toggle="modal" data-url="components/guides/civil/arrendamiento.php"
+                           data-toggle="modal" data-url="components/guides/laboral/fueroMaternal.php"
                            data-title="Guía arrendamiento"><h4>Guía</h4></a>
                         
                     </div>
                     <div class="col-md-4 column ui-sortable">
                         <a id="modal-660944" href="#modal-container" 
                            role="button" class="btn helpBtn" 
-                           data-toggle="modal" data-url="components/diagrams/arrendamiento.php"
+                           data-toggle="modal" data-url="components/diagrams/fuero.php"
                            data-title="Diagrama Arrendamiento"><h4>Diagrama</h4></a>
                         
                     </div>
                     <div class="col-md-4 column ui-sortable">
-                        <a id="modal-660944" href="#modal-container" role="button" class="btn helpBtn" data-toggle="modal"><h4>Leyes</h4></a>
+                        <a href="http://www.leychile.cl/Consulta/m/m/norma_plana?idNorma=207436&org=bleyes_r?t_n=XX13&nro_ley=1&orga=+&f_pub=2003" target="_blank"><h4>Leyes</h4></a>
                     </div>
                 </div>
             </div>
             <br>
             <div class="row clearfix">
-                <div class="col-md-6 column ui-sortable">
-                    Estado administrativo: Sin archivar
+                <div class="col-md-12 column ui-sortable">
+                     <ul>
+                        <li><strong>Procedimiento de tu causa :</strong>  Ordinario</li>
+                        <li><strong>Estado Proceso :</strong> En tramitación</li>
+                        <li><strong>Dirección</strong>
+                            <a href="https://www.google.com/maps/place/Merced+360/@-33.4374414,-70.642251,17z/data=!3m1!4b1!4m2!3m1!1s0x9662c5991c1b0b13:0x442845f6350afca5" target="_blank">2º Juzgado de letras del trabajo de Santiago (Dirección Merced Nº 360, Santiago)</a>
+                        </li>
+                    </ul>
                 </div>
                 <div class="col-md-6 column ui-sortable">
                     Proc: Ordinario 
@@ -70,13 +76,8 @@
                                         <thead>
                                             <tr>
                                                 <th>Estado Notificación</th>
-                                                <th>Fecha</th>
-                                                <th>RIT</th>
-                                                <th>RUC</th>
+                                                <th>Fecha trámite</th>
                                                 <th>Tipo Parte</th>
-                                                <th>Nombre</th>
-                                                <th>Tramite</th>
-                                                <th>Observación Fallida</th>
                                             </tr>
                                         </thead>
                                     </table>

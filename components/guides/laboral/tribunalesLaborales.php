@@ -15,7 +15,7 @@
 					<div class="panel-heading">
 						 <a class="panel-title" data-toggle="collapse" data-parent="#panel-questions" href="#panel-element-2">¿Qué características tienen los tribunales laborales? </a>
 					</div>
-					<div id="panel-element-2" class="panel-collapse collapse">
+					<div id="panel-element-2" class="panel-collapse collapse in">
 						<div class="panel-body">
 							<p>Cuentan con jueces especializados en la materia.</p>
 							<p>Sus audiencias son orales y públicas.</p>

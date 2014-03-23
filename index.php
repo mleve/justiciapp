@@ -20,12 +20,13 @@
           <script src="js/html5shiv.js"></script>
         <![endif]-->
 
-        <!-- Fav and touch icons -->
+        <!-- Fav and touch icons
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
         <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
-        <link rel="shortcut icon" href="img/favicon.png">
+         -->
+        <link rel="shortcut icon" href="img/favicon.ico">
 
         <script type="text/javascript" src="js/jquery.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -78,7 +79,7 @@
                             </div>
                             <div class="item">
                                 <div class="imgForCarousel">
-                                    <img alt="" src="img/cercano.jpg">
+                                    <img alt="" src="img/cercano2.jpg">
                                 </div>
                                 
                                 <div class="carousel-caption">
@@ -102,17 +103,18 @@
             <div class="row clearfix">
                 <div class="col-md-6 column">
                     <h3 class="text-center">
-                        Buscador de Causas
+                        Busca todas tus causas
                     </h3>
                     <p>
-                        Nuestro buscador se conecta directamente con los servicios de www.pjud.cl para encontrar tus causas en los siguientes tribunales:
+                        Nuestro buscador se conecta directamente con los servicios de <a href="http://www.pjud.cl" >www.pjud.cl</a> para encontrar tus causas en los siguientes tribunales:
                     </p>
                     <ul>
                         <li> Civiles </li>
-                        <li> Laborales y cobranza laboral </li>
                         <li> Penales </li>
-                        <li> Corte de Apelaciones </li>
-                        <li> Corte Suprema </li>
+                        <li> Laborales</li>
+                        <li> Cobranza Laboral </li>
+                        <li> Cortes de Apelaciones </li>
+                        <li> Corte Suprema de justicia </li>
                     </ul>
                     <p> Ademas, te ofrecemos guiás que te ayuden a entender tus causas </p>
                     <div class="text-center"> <a class="btn btn-primary btn-large" href="buscador.php">Ir al buscador</a> </div>			
@@ -122,10 +124,10 @@
                         Guias
                     </h3>
                     <p>
-                        ¿No sabes como comenzar?, en <strong> EasyJustice</strong> te explicamos.
+                        ¿No sabes como empezar?, en <strong> EasyJustice</strong> te explicamos, fácilmente!
                     </p>
                     <p>
-                        Hemos preparado una serie de guías legales para guiarte en los procesos judiciales mas comunes
+                        Accede a guías legales sobre los procesos judiciales más comunes. Por ejemplo, aprende en qué consiste un juicio de Arrendamiento, conoce los requisitos para presentar tu demanda, los tiempos estimados de tramitación judicial y mucha otra información relevante, en un lenguaje claro y sencillo.
                     </p>
                     <div class="text-center"> <a class="btn btn-primary btn-large" href="guias.php">Ir a guiás</a> </div>
 
@@ -138,14 +140,15 @@
                     </h3>
                     <p>
                         El proyecto <strong>EasyJustice</strong> se desarrolla en el marco del 
-                        <a target="_blank" href="http://www.derecho.uchile.cl/noticias/97367/primer-concurso-tecnologia-y-acceso-a-la-justicia">primer  concurso de Derecho y Acceso a la Justicia</a>
-                         , organizado por el Poder Judicial de la República de Chile
+                        <a target="_blank" href="http://www.derecho.uchile.cl/noticias/97367/primer-concurso-tecnologia-y-acceso-a-la-justicia">primer  concurso de "Derecho y Acceso a la Justicia"</a>
+                         , organizado por el Poder Judicial de la República de Chile.
                     </p>
                     <p>
-                        <strong>EasyJustice</strong> consulta las bases de datos públicas del Poder Judicial, por tanto en caso de existir causas reservadas dicho contenido no será exhibido.
+                        <strong>EasyJustice</strong> consulta las bases de datos públicas del Poder Judicial, por tanto en caso de existir causas reservadas dicho contenido no podrá ser exhibido.
                     </p>
                     <p>
-                        En <strong>EasyJustice</strong> somos respetuosos de sus datos e información personal, por tanto no transferimos de forma alguna su información a terceros, respetando todos los derechos que le confiere la ley 19.628. 
+                        En <strong>EasyJustice</strong> respetamos sus datos e información personal, por tanto no transferimos ésta a terceros, respetando todos los derechos que le confiere la ley 
+                        <a href="http://www.leychile.cl/Consulta/m/m/norma_plana?idNorma=141599&org=bleyes_r%3Ft_n%3DXX1%26nro_ley%3D19628%26orga%3D%26f_pub%3D">19.628</a>. 
                     </p>
                 </div>
             </div>

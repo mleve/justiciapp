@@ -5,7 +5,7 @@
         </h2>
         <h4>Leyes relacionadas con esta materia:
             <br>
-            <a href="http://www.leychile.cl/Consulta/m/m/norma_plana?idNorma=225128&org=bleyes_r?t_n=XX1&nro_ley=19947&orga=&f_pub=" target="_blank">Ley N° 19.947 que establece la Nueva Ley de Matrimonio Civil </a>
+            <a href="http://www.leychile.cl/Consulta/m/m/norma_plana?idNorma=242648&org=bleyes_r%3Ft_n%3Dtxt%26nro_ley%3Dviolencia+intrafamiliar%26orga%3D%26f_pub%3D" target="_blank">Ley Nº 20066 sobre Violencia Intrafamiliar</a>
             <br>
             <a href="http://www.leychile.cl/Consulta/m/m/norma_plana?idNorma=229557&org=bleyes_r?t_n=XX1&nro_ley=19968&orga=&f_pub=" target="_blank">Ley N° 19.968 que crea los Tribunales de Familia </a>
 

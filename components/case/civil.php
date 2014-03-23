@@ -5,9 +5,9 @@
                     <table class="table">
                         <thead>
                             <tr>
+                                <th>1° TRIBUNAL CIVIL</th>
                                 <th>C-2905-2014</th>
                                 <th>VILCHES/ARAYA</th>
-                                <th>1° TRIBUNAL CIVIL</th>
                             </tr>
                         </thead>
                     </table>
@@ -17,9 +17,9 @@
         <div id="panel-resCivil" class="panel-collapse collapse causaResult">
             <div class="row clearfix helpRow">
                 <div class="col-md-12 column ui-sortable ">
-                    <h3>Esta causa es del tipo: <strong> algo </strong></h3>
-                    <h4> ¿Necesitas ayuda?</h4>
-                    <h4> Tenemos guías para resolver todas tus dudas, un diagrama que te explicara las fases del proceso, o puedes revisar las leyes asociadas a esta causa:</h4>
+                    <h3>Esta causa es del tipo: <strong> Arrendamiento</strong></h3>
+                    <h4> <strong>¿Necesitas ayuda?</strong></h4>
+                    <h4> Revisa más abajo las guías legales para resolver todas tus dudas, un diagrama que te explicará las fases de este proceso o revisa en detalle  las leyes oficiales asociadas a esta causa:</h4>
                     <div class="col-md-4 column ui-sortable">
                         <a id="modal-660944" href="#modal-container" 
                            role="button" class="btn helpBtn" 
@@ -35,14 +35,14 @@
                         
                     </div>
                     <div class="col-md-4 column ui-sortable">
-                        <a id="modal-660944" href="#modal-container" role="button" class="btn helpBtn" data-toggle="modal"><h4>Leyes</h4></a>
+                        <a href="http://www.leychile.cl/Consulta/m/m/norma_plana?idNorma=29526&org=bleyes_r?t_n=XX1&nro_ley=18101&orga=&f_pub=" target="_blank" class="btn"><h4>Leyes</h4></a>
                     </div>
                 </div>
             </div>
             <br>
             <div class="row clearfix">
                 <div class="col-md-4">
-                    Historia Causa Cuaderno
+                    <strong>Historia de tu Causa en Cuaderno*</strong>
                 </div>
                 <div class="col-md-4">
                     <select name="CRR_Cuaderno" class="form-control">
@@ -54,19 +54,20 @@
                 </div>
             </div>
             <div class="row clearfix">
-                <div class="col-md-6 column ui-sortable">
-                    Estado administrativo: Si
-                </div>
-                <div class="col-md-6 column ui-sortable">
-                    Proc: Sumario Especial 
+                <div class="col-md-12">
+                    <p>*Tu causa puede tener más de un expediente, denominado cuaderno. Asegúrate de revisar todos los cuadernos de tu causa.</p>
                 </div>
             </div>
             <div class="row clearfix">
-                <div class="col-md-6 column ui-sortable">
-                    Etapa: 0 ingreso
-                </div>
-                <div class="col-md-6 column ui-sortable">
-                    Estado Proceso: Tramitación
+                <div class="col-md-12 column ui-sortable">
+                    <ul>
+                        <li><strong>Procedimiento de tu causa :</strong>  Sumario Especial</li>
+                        <li><strong>Estado Proceso :</strong> En tramitación</li>
+                        <li><strong>Dirección</strong>
+                            <a href="https://www.google.com/maps?q=Juzgados+Civiles+de+Santiago,+Santiago,+Regi%C3%B3n+Metropolitana,+Chile&hl=es&ie=UTF8&sll=-33.440045,-70.657046&sspn=0.002789,0.005284&hq=Juzgados+Civiles+de+Santiago,+Santiago,+Regi%C3%B3n+Metropolitana,+Chile&t=m&z=16" target="_blank">Primer juzgado Civil de Santiago (Calle Huérfanos 1409, Santiago)</a>
+                        </li>
+                    </ul>
+                    
                 </div>
             </div>
             <br>
@@ -85,9 +86,6 @@
                                                 <th>Estado Notificación</th>
                                                 <th>Fecha Tramite</th>
                                                 <th>Tipo Parte</th>
-                                                <th>Nombre</th>
-                                                <th>Tramite</th>
-                                                <th>Observación Fallida</th>
                                             </tr>
                                         </thead>
                                     </table>
@@ -163,7 +161,7 @@
                                                 <td>Escrito</td>
                                                 <td>Ingreso demanda</td>
                                                 <td>07/03/2014</td>
-                                                <td><a href="components/case/docs/demCivil.php" target="_blank" >Descargar</a></td>
+                                                <td><a href="components/case/docs/demCivil.pdf" target="_blank" >Descargar</a></td>
                                             </tr>
                                         </tbody>
                                     </table>

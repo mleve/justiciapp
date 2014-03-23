@@ -21,11 +21,13 @@
         <![endif]-->
 
         <!-- Fav and touch icons -->
+        <!--
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
         <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
-        <link rel="shortcut icon" href="img/favicon.png">
+        -->
+        <link rel="shortcut icon" href="img/favicon.ico">
 
         <script type="text/javascript" src="js/jquery.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -37,7 +39,7 @@
         <div class="row clearfix">
             <div class="col-md-4 column">
                 <div class="form-group">
-                    <label for="trib" >Tipo de causa:</label>
+                    <label for="trib" >Tribunal donde buscar</label>
                     <div>
                         <ul>
                             <li>
@@ -91,11 +93,14 @@
 
                 <div class="row clearfix">
                     <div class="col-md-12 column">
-                        <h1> Para comenzar, Busca una causa </h1>
+                        <h1>Conoce todas* tus causas gracias a <Strong>EasyJustice</Strong></h1>
                     </div>
                 </div>
-
+                
             </div>
+        </div>
+        <div class="row clearfix text-center">
+            <p><strong>* EasyJustice</strong> consulta las bases de datos públicas del Poder Judicial de Chile, por tanto en caso de existir causas reservadas dicho contenido no podrá ser exhibido.</p> 
         </div>
         <?php include 'components/footer.php'; ?>
         <script type="text/javascript">

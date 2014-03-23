@@ -15,7 +15,7 @@
 					<div class="panel-heading">
 						 <a class="panel-title" data-toggle="collapse" data-parent="#panel-questions" href="#panel-element-2">¿Qué es la indemnización laboral?</a>
 					</div>
-					<div id="panel-element-2" class="panel-collapse collapse">
+					<div id="panel-element-2" class="panel-collapse collapse in">
 						<div class="panel-body">
 							<p> La suma de dinero que debe entregar el empleador al trabajador cuando pone término al contrato de trabajo, invocando alguna de las causales que dan este derecho al trabajador, o cuando se ha estipulado esta indemnización en el contrato de trabajo.  El pago de indemnización no corresponde si la causa de despido es por lo mencionado en el articulo 160 del Código del Trabajo: mala conducta del empleado, causar daños a la empresa, abandonar injustificadamente sus tareas, etc.</p>
 							<p></p>

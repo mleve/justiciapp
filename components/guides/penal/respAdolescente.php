@@ -14,7 +14,7 @@
                 <div class="panel-heading">
                     <a class="panel-title" data-toggle="collapse" data-parent="#panel-questions" href="#panel-element-2">¿Qué establece la Ley de Responsabilidad Penal Adolescente?</a>
                 </div>
-                <div id="panel-element-2" class="panel-collapse collapse">
+                <div id="panel-element-2" class="panel-collapse collapse in">
                     <div class="panel-body">
                         <p> La  ley de Responsabilidad Penal Adolescente  establece un sistema de responsabilidad para los adolescentes entre 14 y 18 años que violen la ley penal. Su principal objetivo es reinsertar a los jóvenes en la sociedad a través de programas especiales.</p>
                         

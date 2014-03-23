@@ -15,7 +15,7 @@
                 <div class="panel-heading">
                     <a class="panel-title" data-toggle="collapse" data-parent="#panel-questions" href="#panel-element-2">¿Cuáles son las causales legales para poner término a un contrato de trabajo? </a>
                 </div>
-                <div id="panel-element-2" class="panel-collapse collapse">
+                <div id="panel-element-2" class="panel-collapse collapse in">
                     <div class="panel-body">
                         <p>Muerte del trabajador.</p>
                         <p>Mutuo acuerdo entre las partes.</p>

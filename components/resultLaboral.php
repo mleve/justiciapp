@@ -1,10 +1,12 @@
 <div class="row clearfix">
+    <h1 class="text-center">Tus causas Judiciales son</h1>
     <table class="table" id="resultsHeader">
         <thead>
             <tr>
+                <th>TRIBUNAL</th>
                 <th>ROL</th>
                 <th>CARATULADO</th>
-                <th>TRIBUNAL</th>
+
             </tr>
         </thead>
     </table>

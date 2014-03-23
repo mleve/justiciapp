@@ -1,0 +1,1 @@
+<img src="components/diagrams/imgs/rProteccion.png" class="img-responsive">

@@ -1,10 +1,12 @@
 <div class="row clearfix">
+    <h1 class="text-center">Tus causas Judiciales son</h1>
     <table class="table" id="resultsHeader">
         <thead>
             <tr>
+                <th>Tribunal</th>
                 <th>ROL</th>
                 <th>CARATULADO</th>
-                <th>Corte </th>
+
             </tr>
         </thead>
     </table>
@@ -22,7 +24,6 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                    <h4 class="modal-title" id="myModalLabel" ">Modal title</h4>
                 </div>
                 <div class="modal-body">
                     <div class="row clearfix">

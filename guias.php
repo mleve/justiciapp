@@ -20,12 +20,13 @@
           <script src="js/html5shiv.js"></script>
         <![endif]-->
 
-        <!-- Fav and touch icons -->
+        <!-- Fav and touch icons 
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
         <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
-        <link rel="shortcut icon" href="img/favicon.png">
+        -->
+        <link rel="shortcut icon" href="img/favicon.ico">
 
         <script type="text/javascript" src="js/jquery.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -39,7 +40,7 @@
                 <div class="panel-group" id="panel-guides">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <a class="panel-title" data-toggle="collapse" data-parent="#panel-guides" href="#panel-guides-civil">Civíl</a>
+                            <a class="panel-title" data-toggle="collapse" data-parent="#panel-guides" href="#panel-guides-civil">Justicia Civil</a>
                         </div>
                         <div id="panel-guides-civil" class="panel-collapse in">
                             <div class="panel-body">
@@ -58,7 +59,7 @@
                     </div>
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <a class="panel-title" data-toggle="collapse" data-parent="#panel-guides" href="#panel-guides-familia">Familia</a>
+                            <a class="panel-title" data-toggle="collapse" data-parent="#panel-guides" href="#panel-guides-familia">Justicia de Familia</a>
                         </div>
                         <div id="panel-guides-familia" class="panel-collapse collapse">
                             <div class="panel-body">
@@ -68,7 +69,7 @@
                                 <a href="components/guides/familia/divorcio.php" class="guideLink">Divorcio</a>
                             </div>
                             <div class="panel-body">
-                                <a href="components/guides/familia/pensionAl.php" class="guideLink">Pension alimenticia</a>
+                                <a href="components/guides/familia/pensionAl.php" class="guideLink">Pensión alimenticia</a>
                             </div>
                             <div class="panel-body">
                                 <a href="components/guides/familia/violencia.php" class="guideLink">Violencia Intrafamiliar</a>
@@ -77,7 +78,7 @@
                     </div>
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <a class="panel-title" data-toggle="collapse" data-parent="#panel-guides" href="#panel-guides-laboral">Laboral</a>
+                            <a class="panel-title" data-toggle="collapse" data-parent="#panel-guides" href="#panel-guides-laboral">Justicia Laboral</a>
                         </div>
                         <div id="panel-guides-laboral" class="panel-collapse collapse">
                             <div class="panel-body">
@@ -90,13 +91,16 @@
                                 <a href="components/guides/laboral/ctoTrabajo.php" class="guideLink">Termino contrato trabajo</a>
                             </div>
                             <div class="panel-body">
+                                <a href="components/guides/laboral/desafueroMaternal.php" class="guideLink">Desafuero Maternal</a>
+                            </div>
+                            <div class="panel-body">
                                 <a href="components/guides/laboral/tribunalesLaborales.php" class="guideLink">Tribunales Laborales</a>
                             </div>
                         </div>
                     </div>
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <a class="panel-title" data-toggle="collapse" data-parent="#panel-guides" href="#panel-guides-penal">Penal</a>
+                            <a class="panel-title" data-toggle="collapse" data-parent="#panel-guides" href="#panel-guides-penal">Justicia Penal</a>
                         </div>
                         <div id="panel-guides-penal" class="panel-collapse collapse">
                             <div class="panel-body">
@@ -128,12 +132,13 @@
                     En ningún caso debe ser considerada como la ley en sí, doctrina, argumento legal ni sustituto de un abogado. 
                 </p>
                 <p>
-                    2.- Algunas guias son una versión modificada de artículos originalmente publicados por la Biblioteca del congreso nacional 
-                    disponible en http://www.bcn.cl/leyfacil  bajo una 
-                    licencia de uso Creativecommons (by-sa/3.0/cl)                      
+                    2.- Algunas guias son una versión modificada de artículos originalmente publicados por la 
+                    <a href="http://www.bcn.cl/leyfacil" target="_blank" > Biblioteca del congreso nacional</a> 
+                    disponibles bajo una licencia de uso Creativecommons (<a href="http://creativecommons.org/licenses/by-sa/3.0/cl" target = "_blank" >by-sa/3.0/cl</a>)                      
                 </p>
                 <p>
-                    3.-Los presentes recursos son publicados bajo licencia de uso Creativecommons (by-sa/3.0/cl)
+                    3.-Los presentes recursos son publicados bajo licencia de uso Creativecommons (<a href="http://creativecommons.org/licenses/by-sa/3.0/cl" target = "_blank" >by-sa/3.0/cl</a>). 
+                     Ustes es libre de utilizar nuestras guías en la forma que estime conveniente.
                 </p>
 
             </div>

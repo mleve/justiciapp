@@ -6,7 +6,7 @@
 		<div class="col-md-6 column">
 			<div class="page-header">
 				<h1>
-					EasyJustice<br><small>La justicia en tus manos, facilmente</small>
+					EasyJustice<br><small>La justicia en tus manos, fácilmente!</small>
 				</h1>
 			</div>
 		</div>
@@ -26,7 +26,7 @@
 				
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
-						<li class="active">
+						<li>
 							<a href="guias.php">Guías</a>
 						</li>
 						<li>
@@ -40,32 +40,6 @@
 						</li>
 
 					</ul>
-                                        <!--
-					<ul class="nav navbar-nav navbar-right">
-						<li>
-							<a href="#">Link</a>
-						</li>
-						<li class="dropdown">
-							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
-							<ul class="dropdown-menu">
-								<li>
-									<a href="#">Action</a>
-								</li>
-								<li>
-									<a href="#">Another action</a>
-								</li>
-								<li>
-									<a href="#">Something else here</a>
-								</li>
-								<li class="divider">
-								</li>
-								<li>
-									<a href="#">Separated link</a>
-								</li>
-							</ul>
-						</li>
-					</ul>
-                                        -->
 				</div>
 				
 			</nav>

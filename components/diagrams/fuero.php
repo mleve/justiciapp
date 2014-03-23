@@ -1,0 +1,1 @@
+<img src="components/diagrams/imgs/fuero.png" class="img-responsive">

@@ -17,7 +17,7 @@
                     <a class="panel-title" data-toggle="collapse" data-parent="#panel-questions" href="#panel-element-2">¿Qué se entiende por accidente del trabajo?
                     </a>
                 </div>
-                <div id="panel-element-2" class="panel-collapse collapse">
+                <div id="panel-element-2" class="panel-collapse collapse in">
                     <div class="panel-body">
                         <p>Se reconoce como accidente laboral toda lesión que sufre una persona a causa o con ocasión de su trabajo y que le produzca lesiones de incapacidad o muerte. Éstos pueden ocurrir en actividades gremiales, de capacitación ocupacional o en el desarrollo de cualquier actividad.  También se incluyen los accidentes que ocurran en el trayecto de ida o regreso entre la casa y el lugar de faena, trabajo o viceversa.  El trayecto entre dos lugares de trabajo también se considera accidente del trabajo, pero es de responsabilidad del trabajo de destino.</p>
                         <p></p>
