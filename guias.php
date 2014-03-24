@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Guias</title>
+        <title>Guias - EasyJustice</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="">
@@ -138,7 +138,7 @@
                 </p>
                 <p>
                     3.-Los presentes recursos son publicados bajo licencia de uso Creativecommons (<a href="http://creativecommons.org/licenses/by-sa/3.0/cl" target = "_blank" >by-sa/3.0/cl</a>). 
-                     Ustes es libre de utilizar nuestras guías en la forma que estime conveniente.
+                    Ustes es libre de utilizar nuestras guías en la forma que estime conveniente.
                 </p>
 
             </div>
@@ -151,7 +151,11 @@
                 $.ajax(url)
                         .done(function(response) {
                             $('#guideSection').html(response);
+                            $('html, body').animate({
+                                scrollTop: $("#guideSection").offset().top
+                            }, 1000);
                         });
+
 
             });
         </script>

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>NOMBREAPLICACION</title>
+  <title>About- EasyJustice</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
   <meta name="author" content="">
@@ -41,9 +41,25 @@
 			<h1 class="text-center">
 				EasyJustice
 			</h1>
+                    <p>
+                       EasyJustice, es una plataforma que se desarolla al alero del “Primer Concurso de Tecnología y Acceso a la Justicia”,
+                       organizado por el <a href="http://www.pjud.cl" target="_blank">Poder judicial de la República de Chile</a>, la <a href="http://www.derecho.uchile.cl/" target="_blank">Facultad de Derecho </a>
+                       y el <a href="http://dcc.uchile.cl" target="_blank">Departamento de Ciencias de la Computación</a>, de  la <a href="http://www.uchile.cl/" target="_blank" >Universidad de Chile </a> .
+                    </p>
+                    <h2>Acceso a la justicia</h2>
+                    <p>Nuestro objetivo primordial es que la ciudadanía pueda conocer, administrar y enteder sus causas judiciales fácilmente.
+                        La filosofía de EasyJustice se funda en la íntima convicción de que todos los ciudadan@s tenemos derecho a acceder a la justicia de forma transparente, actualizada, gratuita y comprensiva.</p>
+                    <h2>Orientación</h2>
+                    <p>
+                       Con nuestro buscador que se conecta directamente a los servicios del Poder Judicial, los ciudadanos pueden encontrar fácilmente todas sus causas en los distintos tribunales, y ofrecemos guías legales, diagramas de funcionamiento de los juicios, glosarios legales y acceso a leyes oficiales para ayudarlos a comprender mejor el funcionamiento de la justicia.
+                    </p>
+                    <p>
+                        Todo esto mediante un lenguaje ciudadano, claro y conciso, ya que estamos convencidos de que la justicia no es un tema sólo de abogados, la justicia es un tema de <strong>tod@s</strong>. 
+                    </p>
                 </div>
 	</div>
 
 </div>
+<?php include 'components/footer.php'; ?>
 </body>
 </html>

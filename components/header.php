@@ -1,14 +1,7 @@
  <div class="container">
 	<div class="row clearfix">
-		<div class="col-md-6 column">
-			<img alt="140x140" src="http://lorempixel.com/500/140/">
-		</div>
-		<div class="col-md-6 column">
-			<div class="page-header">
-				<h1>
-					EasyJustice<br><small>La justicia en tus manos, fácilmente!</small>
-				</h1>
-			</div>
+		<div class="col-md-12 column">
+                    <img src="img/banner.png" class="img-responsive">
 		</div>
 	</div>
 	<div class="row clearfix">

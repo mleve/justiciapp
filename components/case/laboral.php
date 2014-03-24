@@ -5,7 +5,7 @@
                     <table class="table">
                         <thead>
                             <tr>
-                                <th>2º Juzgado de Letras del Trabajo de Santiago</th>
+                                <th>2º JUZGADO DE LETRAS DEL TRABAJO DE SANTIAGO</th>
                                 <th>O-861-2014</th>
                                 <th>VILCHES CON VALLADE</th>
                             </tr>

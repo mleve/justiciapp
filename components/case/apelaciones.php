@@ -5,8 +5,8 @@
                     <table class="table">
                         <thead>
                             <tr>
-                                <th>C.A. de Santiago</th>
-                                <th>Proteccion-10489-2014</th>
+                                <th>C.A. DE SANTIAGO</th>
+                                <th>PROTECCIÓN-10489-2014</th>
                                 <th>VILCHES ALTAMIRANO DAVID / CISTERNAS FLORES PEDRO</th>
                                 
                             </tr>

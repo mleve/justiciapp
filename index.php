@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>NOMBREAPLICACION</title>
+        <title>EasyJustice</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="">
@@ -123,10 +123,10 @@
                     <h3 class="text-center">
                         Guias
                     </h3>
-                    <p>
+                    <p class="justifParraf">
                         ¿No sabes como empezar?, en <strong> EasyJustice</strong> te explicamos, fácilmente!
                     </p>
-                    <p>
+                    <p class="justifParraf">
                         Accede a guías legales sobre los procesos judiciales más comunes. Por ejemplo, aprende en qué consiste un juicio de Arrendamiento, conoce los requisitos para presentar tu demanda, los tiempos estimados de tramitación judicial y mucha otra información relevante, en un lenguaje claro y sencillo.
                     </p>
                     <div class="text-center"> <a class="btn btn-primary btn-large" href="guias.php">Ir a guiás</a> </div>
